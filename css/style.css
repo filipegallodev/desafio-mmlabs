@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+/* Classes e IDs */
+
+#principal {
+   background: rgb(255, 255, 255);
+   padding: 50px 75px 20px 75px;
+   border-radius: 4px;
+   width: 85%;
+   max-width: 500px;
+   margin: 40px auto 30px auto;
+   box-shadow: 3px 3px 15px black;
+}
+
+#titulo-principal {
+   color: rgb(255, 238, 238);
+   text-align: center;
+}
+
+#footer {
+   color: rgb(255, 235, 235);
+}
+
+.botao {
+   padding: 10px 30px;
+   font-size: 18px;
+   border: 2px solid #949494;
+   color: #5c0000;
+   border-radius: 4px;
+}
+
+.adicionar {
+   width: 100%;
+}
+
+/* Painel Secundario */
+#secundario {
+   background: rgb(255, 255, 255);
+   padding: 50px 75px 20px 75px;
+   border-radius: 4px;
+   width: 85%;
+   max-width: 1000px;
+   margin: 40px auto 30px auto;
+   box-shadow: 3px 3px 15px black;
+}
+
+/* Tabela */
+#tabela {
+   display: grid;
+   grid-template-columns: repeat(3, 3fr);
+   grid-template-rows: repeat(auto, 30px);
+   background: rgb(255, 248, 248);
+   padding: 40px;
+   border-radius: 4px;
+   width: 85%;
+   max-width: 900px;
+   margin: 10px auto 10px auto;
+   box-shadow: 1px 1px 5px black;
+}
+
+#divisor {
+   grid-column: 1 / -1;
+   width: 100%;
+}
+
+#resultado {
+   grid-column: 1 / -1;
+   display: grid;
+   grid-template-columns: repeat(3, 3fr);
+}
+
+#pesquisaForm {
+   grid-column: 1 / -1;
+   width: 100%;
+}
+
+.botaoPesquisar {
+   grid-column: 1 / -1;
+   width: 99%;
+}
+
+.mostrarTabela {
+   grid-column: 1 / -1;
+   width: 100%;
+}
+
+/* Estilos Gerais */
+
+body {
+   margin: 0px;
+   background: rgb(179, 39, 39);
+   font-family: Arial;
+   font-size: 20px;
+   margin-top: 75px;
+   text-align: center;
+}
+
+footer {
+   color: white;
+   text-align: center;
+   font-size: 18px;
+}
+
+h2 {
+   font-size: 20px;
+   margin: 0px;
+   color: #5c0000;
+}
+
+p {
+   color: rgb(121, 121, 121);
+}
+
+a {
+   color: white;
+   text-decoration: none;
+}
+
+img {
+   width: 100%;
+}
+
+input {
+   padding: 7px 0px 10px 10px;
+   font-size: 18px;
+   border: 2px solid #949494;
+   border-radius: 4px;
+   margin: 5px 30px 30px 0px;
+   width: 97.3%;
+}
