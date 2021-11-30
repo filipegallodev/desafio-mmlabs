@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Desafio MMLabs</title>
+   <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <h1 id="titulo-principal">Contatos dos Funcionários</h1>
+
+   <section>
+      <div id="principal">
+         <img src="imagens/empresa.jpg" alt="empresa">
+         <p>
+            Bem-vindo ao sistema dos funcionários para consulta dos contatos, aqui você pode adicionar novos membros, exibir a lista dos atuais
+            integrantes ou pesquisar alguém em específico.
+         </p>
+         <!-- Cadastro dos Funcionários -->
+         <div>
+            <label for="nomeForm">
+               <h2>Nome</h2>
+            </label>
+            <input type="text" name="nomeForm" id="nomeForm" placeholder="Ex: Maria da Silva" required>
+         </div>
+
+         <div>
+            <label for="telefoneForm">
+               <h2>Telefone</h2>
+            </label>
+            <input type="tel" name="telefoneForm" id="telefoneForm" placeholder="Ex: (19) 99999-9999" required>
+         </div>
+
+         <div>
+            <label for="emailForm">
+               <h2>E-mail</h2>
+            </label>
+            <input type="email" name="emailForm" id="emailForm" placeholder="Ex: email@example.com" required>
+         </div>
+
+         <input class="botao adicionar" type="button" value="Adicionar" onclick="adicionarFuncionario()">
+      </div>
+
+      <!-- Exibição dos Funcionários -->
+      <div id="secundario">
+         <!-- Pesquisa -->
+         <p>Por favor, utilize o nome exato para realizar a pesquisa.</p>
+         <div id="pesquisaForm">
+            <label for="nomePesquisa"><h2>Nome</h2></label>
+            <input type="text" name="nomePesquisa" id="nomePesquisa" placeholder="Ex: Marco Antonio da Silva" required>
+         </div>
+         <input class="botao botaoPesquisar" type="button" value="Pesquisar" onclick="pesquisarFuncionario()">
+
+         <div id="tabela">
+            <input class="botao mostrarTabela" type="button" value="Listar Funcionários" onclick="mostrarLista()">
+            <!-- Tabela -->
+            <h2>Nome</h2>
+            <h2>Telefone</h2>
+            <h2>E-mail</h2>
+            <hr id="divisor">
+            <div id="resultado">
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <script src="scripts/script.js"></script>
+
+   <footer>
+      <p id="footer">
+         Criado por: <a href="https://github.com/filipegallodev" target="_blank" rel="external">
+            <strong>@filipegallodev</strong> </a>
+      </p>
+   </footer>
+</body>
+
+</html>
