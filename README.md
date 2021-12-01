@@ -22,14 +22,14 @@ Criar um sistema para armazenar o nome, telefone e e-mail dos funcionários.
   </a>
 </p>
 
-### Features
+### Recursos
 
-É possível até o momento:
+Recursos até o momento:
 * Adicionar novos funcionários;
 * Listar todos os funcionários;
 * Procurar por um funcionário em específico;
-* Validação para evitar duplicação de funcionários.
+* Validação para evitar duplicação quando adicionar novos funcionários.
 
 ### Problemas
 
-O sistema não possui banco de dados para salvar os dados, então ele só mantém os dados enquanto estiver com a página aberta.
+O sistema ainda não possui banco de dados para salvar os dados, então ele só mantém os dados enquanto estiver com a página aberta.
