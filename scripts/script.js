@@ -7,8 +7,8 @@ let pesquisa = document.querySelector('input#nomePesquisa')
 
 // Declarando o "banco de dados" dos funcionários.
 let nomeFuncionario = ['Marcos Amaral', 'Maria Almeida', 'Gustavo da Silva', 'Antonio Facundes', 'Juliana Ferreira']
-let numeroTelefone = ['19 99999-9999', '19 99999-9999', '19 99999-9999', '19 99999-9999', '19 99999-9999']
-let emailFuncionario = ['jose.amaral@gmail.com', 'maria.almeida@gmail.com', 'gustavo.silva@hotmail.com', 'antonio,facundes@yahoo.com', 'juliana.ferreira@hotmail.com']
+let numeroTelefone = ['(19) 99999-9999', '(19) 99999-9999', '(19) 99999-9999', '(19) 99999-9999', '(19) 99999-9999']
+let emailFuncionario = ['jose.amaral@gmail.com', 'maria.almeida@gmail.com', 'gustavo.silva@hotmail.com', 'antonio.facundes@yahoo.com', 'juliana.ferreira@hotmail.com']
 
 // Mostra a lista dos funcionários na tela.
 function mostrarLista() {
