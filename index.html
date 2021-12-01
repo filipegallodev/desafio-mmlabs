@@ -27,21 +27,21 @@
             <label for="nomeForm">
                <h2>Nome</h2>
             </label>
-            <input type="text" name="nomeForm" id="nomeForm" placeholder="Ex: Maria da Silva" required>
+            <input type="text" name="nomeForm" class="forms" id="nomeForm" placeholder="Ex: Maria da Silva" required>
          </div>
 
          <div>
             <label for="telefoneForm">
                <h2>Telefone</h2>
             </label>
-            <input type="tel" name="telefoneForm" id="telefoneForm" placeholder="Ex: (19) 99999-9999" onkeypress="$(this).mask('(00) 00000-0009')" required>
+            <input type="tel" name="telefoneForm" class="forms" id="telefoneForm" placeholder="Ex: (19) 99999-9999" onkeypress="$(this).mask('(00) 00000-0009')" required>
          </div>
 
          <div>
             <label for="emailForm">
                <h2>E-mail</h2>
             </label>
-            <input type="email" name="emailForm" id="emailForm" placeholder="Ex: email@example.com" required>
+            <input type="email" class="forms" name="emailForm" id="emailForm" placeholder="Ex: email@example.com" required>
          </div>
 
          <input class="botao adicionar" type="button" value="Adicionar" onclick="adicionarFuncionario()">
@@ -53,7 +53,7 @@
          <p>Por favor, utilize o nome exato para realizar a pesquisa.</p>
          <div id="pesquisaForm">
             <label for="nomePesquisa"><h2>Nome</h2></label>
-            <input type="text" name="nomePesquisa" id="nomePesquisa" placeholder="Ex: Marco Antonio da Silva" required>
+            <input type="text" name="nomePesquisa" class="forms" id="nomePesquisa" placeholder="Ex: Marco Antonio da Silva" required>
          </div>
          <input class="botao botaoPesquisar" type="button" value="Pesquisar" onclick="pesquisarFuncionario()">
 
