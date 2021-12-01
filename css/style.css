@@ -4,17 +4,18 @@
 
 #principal {
    background: rgb(255, 255, 255);
-   padding: 50px 75px 20px 75px;
+   padding: 75px 75px 20px 75px;
    border-radius: 4px;
    width: 85%;
    max-width: 500px;
-   margin: 40px auto 30px auto;
+   margin: 60px auto 50px auto;
    box-shadow: 3px 3px 15px black;
 }
 
 #titulo-principal {
    color: rgb(255, 238, 238);
    text-align: center;
+   margin-top: 100px;
 }
 
 #footer {
@@ -23,9 +24,12 @@
 
 .botao {
    padding: 10px 30px;
-   font-size: 18px;
-   border: 2px solid #949494;
+   font-size: 20px;
    color: #5c0000;
+}
+
+.forms {
+   border: 2px solid #949494;
    border-radius: 4px;
 }
 
@@ -69,14 +73,9 @@
    grid-template-columns: repeat(3, 3fr);
 }
 
-#pesquisaForm {
-   grid-column: 1 / -1;
-   width: 100%;
-}
-
 .botaoPesquisar {
    grid-column: 1 / -1;
-   width: 99%;
+   width: 98.7%;
 }
 
 .mostrarTabela {
@@ -88,7 +87,7 @@
 
 body {
    margin: 0px;
-   background: rgb(179, 39, 39);
+   background: rgb(212, 52, 52);
    font-family: Arial;
    font-size: 20px;
    margin-top: 75px;
@@ -96,19 +95,25 @@ body {
 }
 
 footer {
+   margin-top: 150px;
+   margin-bottom: 50px;
    color: white;
    text-align: center;
    font-size: 18px;
 }
 
+h1 {
+   font-size: 45px;
+}
+
 h2 {
-   font-size: 20px;
-   margin: 0px;
-   color: #5c0000;
+   font-size: 21px;
+   margin: 2px;
+   color: #4d0000;
 }
 
 p {
-   color: rgb(121, 121, 121);
+   color: #585858;
 }
 
 a {
@@ -121,10 +126,8 @@ img {
 }
 
 input {
-   padding: 7px 0px 10px 10px;
+   padding: 10px 0px 10px 10px;
    font-size: 18px;
-   border: 2px solid #949494;
-   border-radius: 4px;
    margin: 5px 30px 30px 0px;
    width: 97.3%;
 }
